@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Juego Dinosaurio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="funciones.js"></script>
 </head>
 <body>
+    <div class="contenedor">
+        <div class="suelo"></div>
+        <div class="dino dino-corriendo"></div>
+        <div class="score">0</div>
+    </div>
+
     
+
+    <script>
+        /*LOOP DEL JUEGO*/
+
+        var time=new Date();
+        var deltaTime=0;
+
+        if(document.readyState === "complete" || document.readyState === "interactive"){
+            setTimeout(Init,1);
+        }else{
+            document.addEventListener("DOMContentLoaded", Init);
+        }
+        
+    </script>
+
+
 </body>
 </html>
