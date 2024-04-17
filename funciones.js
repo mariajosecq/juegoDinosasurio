@@ -143,7 +143,7 @@ function detectarColision(){
         if(obstaculos[i].posX > dinoPosX + dino.clientWidth){
             break;
         }else{
-            if(IsCollision(dino, obstaculos[i], 10, 30, 15, 20)){
+            if(IsCollision(dino, obstaculos[i], 10, 10, 10, 10)){
                 GameOver();
             }
         }
