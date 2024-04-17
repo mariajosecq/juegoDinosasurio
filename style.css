@@ -60,19 +60,29 @@ body{
     height: 30px;
 
     position: absolute;
-    top: 5px;
-    right: 15px;
+    top: 10px;
+    right: 45px;
     z-index: 10;
 
-    color:#D48872;
+    color:#dffdff;
     font-family: Verdana;
     font-size: 30px;
     font-weight: bold;
     text-align: right;
 }
 
-.cactus{
-    width: 46px;
+.icono-score {
+    width: 25px; 
+    height: 25px; 
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    background: url('img/hueso.png') no-repeat;
+    background-size: contain; 
+}
+
+.obstaculo{
+    width: 103px;
     height: 96px;
 
     position: absolute;
@@ -80,20 +90,9 @@ body{
     left: 600px;
     z-index: 1;
 
-    background: url(img/cactus1.png) no-repeat;
+    background: url('img/casa-perro.png') no-repeat;
 }
 
-.nube{
-    width: 92px;
-    height: 26px;
-
-    position: absolute;
-    top: 16px;
-    left: 600px;
-    z-index: 1;
-
-    background: url(img/nube.png) no-repeat;
-}
 
 @keyframes animarDino{
     from{

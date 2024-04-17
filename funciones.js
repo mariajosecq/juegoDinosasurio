@@ -112,7 +112,7 @@ function decidirCrearObstaculos(){
 function crearObstaculo(){
     var obstaculo = document.createElement("div");
     contenedor.appendChild(obstaculo);
-    obstaculo.classList.add("cactus");
+    obstaculo.classList.add("obstaculo");
     obstaculo.posX=contenedor.clientWidth;
     obstaculo.style.left = contenedor.clientWidth+"px";
 
@@ -172,3 +172,7 @@ function estrellarse(){
     dino.classList.add("dino-estrelllado");
     parado = true; 
 }
+
+
+
+
