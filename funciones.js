@@ -1,4 +1,6 @@
-
+var time=new Date();
+var deltaTime=0;
+ 
 var sueloY = 22;
 var velY = 0;
 var impulso = 900;
